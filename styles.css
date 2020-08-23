@@ -66,13 +66,17 @@ img {
 
 @media screen and (max-width: 999px) {
     #left, #right {
-        width: 100px;
+        width: 50%;
         position: absolute;
         height: 500px;
+        background: transparent;
     }
     
+    #left {
+        left: 0;
+    }
+
     #right {
-        left: 55%
+        left: 52%;
     }
 }
-
