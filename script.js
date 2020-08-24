@@ -36,7 +36,7 @@ setInterval(()=>{
     let blockTop = parseInt(window.getComputedStyle(block).getPropertyValue("top"));
     let blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     let characterLeft = parseInt(window.getComputedStyle(character).getPropertyValue("left"));
-    if (blockLeft == characterLeft && blockTop < 500 && blockTop> 300) {
+    if (blockLeft == characterLeft && blockTop < 600 && blockTop> 400) {
         block.style.animation = "none";
         counter= 0;
         alert("You lost the game")
