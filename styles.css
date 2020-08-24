@@ -6,20 +6,20 @@
 
 .center-item {
     text-align: center;
-} 
+}
 
 #parent {
     margin-top: 5%;
 }
 
 #game {
-    height: 500px;
+    height: 600px;
     width: 300px;
     border: 1px solid black;
     margin: 10px auto;
     overflow: hidden;
     background-image: url(road.jpg);
-    background-size: 300px 500px;
+    background-size: 300px 600px;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
     width: 100px;
     background-color: red;
     position: relative;
-    top: 300px;
+    top: 400px;
     left: 100px;
     z-index: 99999;
 }
@@ -48,7 +48,7 @@ img {
 
 @keyframes slide {
     0%{top: 0;}
-    100%{top: 500;}
+    100%{top: 600;}
 }
 
 #game-controller {
@@ -68,10 +68,10 @@ img {
     #left, #right {
         width: 50%;
         position: absolute;
-        height: 500px;
+        height: 600px;
         background: transparent;
     }
-    
+
     #left {
         left: 0;
     }
