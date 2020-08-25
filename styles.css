@@ -42,7 +42,7 @@ img {
     width: 100px;
     background-color: black;
     position: relative;
-    animation: slide 1.5s infinite;
+    animation: slide 1.25s infinite;
     z-index: 99999;
 }
 
